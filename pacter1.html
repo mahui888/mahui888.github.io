@@ -4,31 +4,41 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-	<style>
-		p{
-			position:fixed;
-			right: 5%;
-			top: 50%;
-			font-size: 40px;
-		}
-	</style>
 	</head>
 	<body>
-		<p>
-			<a href="#1F">F1</a><br/>
-			<a href="#2F">F2</a><br/>
-			<a href="#3F">F3</a><br/>
-			<a href="#4F">F4</a>
-		</p>
-	<img src="../HTMCP1素材/01 上机练习素材/练习4：京东快速购物导航/image/img1.png"/>
-	<a name="1F"></a>
-	<img src="../HTMCP1素材/01 上机练习素材/练习4：京东快速购物导航/image/img2.png"/>
-	<a name="2F"></a>
-	<img src="../HTMCP1素材/01 上机练习素材/练习4：京东快速购物导航/image/img3.png"/>
-	<a name="3F"></a>
-	<img src="../HTMCP1素材/01 上机练习素材/练习4：京东快速购物导航/image/img4.png"/>
-	<a name="4F"></a>
-	<img src="../HTMCP1素材/01 上机练习素材/练习4：京东快速购物导航/image/img5.png"/>
-	
+		<h3>注册账号</h3>
+		<form action="表单6.html" method="post">
+			<p>
+				昵称
+				<input type="text" name="name" placeholder="kxxw" required="required" pattern="[-\w\u4E00-\u9FA5]{4,10}">
+				长度为4-10个字符
+			</p>
+			<p>
+				密码
+				<input type="password" name="pass" required="required" pattern="[\dA-Za-z]{6,16}"/>
+				长度为6-16个字符
+			</p>
+			<p>
+				确认密码
+				<input type="password" name="pass" required="required" pattern="[\dA-Za-z]{6,16}"/>
+				长度为6-16个字符
+			</p>
+			<p>
+				手机号码
+				<input type="text" name="mobil" required="required" pattern="1[3578]\d{9}"/>
+				以13,15,17,18开头的11位数字
+			</p>
+			<p>
+				邮箱
+				<input type="email" name="email" />
+			</p>
+			<p>
+				年龄
+				<input type="text" name="age" required="required" pattern="\d|[1-9]\d|[0-2]\d">
+			</p>
+			<p>
+				<input type="submit" name="" value="立即注册"/>
+			</p>
+		</form>
 	</body>
 </html>
