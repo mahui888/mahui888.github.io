@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>京东快报</title>
+		<style type="text/css">
+		h2,ul,li{
+			padding: 0px;
+			margin:0px;
+		}
+			#a{
+				margin: 30px;
+				padding:0px;
+				width: 230px;
+		
+				border: 1px solid #A0A0A0;
+				box-sizing: border-box;
+				
+				
+			}
+			.a1{
+				
+				background: linear-gradient(to bottom,#ccccff,#fff);
+				line-height: 43px;
+				color: #717171;
+				box-sizing:border-box;
+				font-size: 16px;
+				vertical-align: middle;
+				padding-left:10px;
+				border-bottom:dotted 1px ;
+				
+			}
+			ul{
+				margin-top: 5px;
+				margin-bottom: 5px;
+				line-height: 26px;
+				padding-right:26px ;
+				padding-left: 26px;
+				font-size: 12px;
+				color: #686868;
+				list-style: none;
+				
+			}
+			span{
+				font-weight: bold;
+			}
+			a:hover{
+				text-decoration: underline;
+				
+			}
+			a{
+				text-decoration: none;
+				color: #686868;
+			}
+
+		</style>
+	</head>
+	<body>
+<div id="a">
+		<div class="a1"><h2>京东快报</h2></div>
+<ul>
+	<li><span>[特惠]</span><a href="#">海飞丝去屑又去油 超清爽</a></li>
+	<li><span>[公告]</span><a href="#">京东公益支持鲁甸新动作</a></li>
+	<li><span>[特惠]</span><a href="#">4688元抢iPhone 6</a></li>
+	<li><span>[公告]</span><a href="#">小米电视携豪礼高调入驻京东</a></li>
+</ul>
+
+</div>
+
+
+
+
+	</body>
+</html>
