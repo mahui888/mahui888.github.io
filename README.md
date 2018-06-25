@@ -1,2 +1,2 @@
 # mahui888.github.io
-* [html](index1.html)
+* [html](mahui888.github.io/index1.html)
